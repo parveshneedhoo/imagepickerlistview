@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
         pick.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.d("TESTTTT1", "Testttt1");
                 Intent intent = new Intent();
                 intent.setType("image/*");
 
